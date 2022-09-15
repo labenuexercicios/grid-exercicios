@@ -9,5 +9,4 @@ Utilize `grid-template` na barra de navegação e na área de galeria, com as se
 - Galeria:
   - 3 colunas
   - 8 linhas de 100px cada
-
-
+  
