@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main{    
+    height: 100vh;   
+    display: grid;    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 16vh);
+    gap:0.5em;
+    padding: 1em;
+    
+    
+}
+
+main > div{
+    background-color: #ecc;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    
+}
+
+main > div:nth-child(odd){
+    background-color: #ccc;
+}
