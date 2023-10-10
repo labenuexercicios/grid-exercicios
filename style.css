@@ -1,16 +1,22 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
   }
   
   .nav-container {
     margin-top: 20px;
+    display: grid;
+    grid-auto-rows: 1fr 1fr 40px;
   }
   
   .gallery {
     width: 900px;
     height: 800px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(8, 100px);
   }
   
   .gallery img {
